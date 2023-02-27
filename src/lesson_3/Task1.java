@@ -14,8 +14,8 @@ public class Task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите стоимость билета:");
-        int user_input = scanner.nextInt();
-        int quantity_bonus = user_input / 20;
-        System.out.println("Вам начислено " + quantity_bonus + " бонусов");
+        int userInput = scanner.nextInt();
+        int quantityBonus = userInput / 20;
+        System.out.println("Вам начислено " + quantityBonus + " бонусов");
     }
 }
